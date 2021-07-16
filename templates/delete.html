@@ -1,0 +1,31 @@
+<html lang="en">
+</html>
+    <head>
+        <title>
+            Get Info
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{ url_for('static' ,path='/com.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static' ,path='/get_info.css') }}">
+    </head>
+
+    <body>
+        <header>
+            Hospital API
+        </header>
+        <h1 >Provider ID</h1>
+        
+        <form action="/delete" method="POST" enctype="multipart/form-data" style="width: 80vw;margin-left: 10vw;">
+            <input type="text" class="form-control form-control-lg" name="providerid" placeholder="Enter the ID">
+            <input type="submit"  class="btn btn-info" placeholder="Get Info" style="margin-top: 2vh;width: 15vw;font-weight: bold;">
+        </form>
+
+    </body>
+       
+</html>

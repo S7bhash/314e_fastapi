@@ -1,0 +1,24 @@
+
+form{
+    margin-bottom: 5vh;
+}
+.info{
+    margin-left: 15vw;
+    width: 70vw;
+    margin-top: 3vh;
+
+}
+
+
+.info-content{
+    width: 100%;
+    min-height: 5vh;
+    color: black;
+    background-color: white;
+    margin: 5px 5px;
+    border-radius: 3px;
+    padding-left: 2vw;
+    padding-top: 3px;
+    font-weight: bold;
+    font:20px
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #303030;
+}
+
+header{
+    height: 10vh;
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    color: lightblue;
+    font-size: Impact;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    top: 0;
+    margin-bottom: 5vh;
+    padding-top: 1vh;
+
+
+
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,16 @@
+form{
+    width: 70vw;
+    margin-left: 15vw;
+    font-size: 22px;
+    color: white;
+}
+
+input{
+    margin: 4px;
+}
+
+select{
+    width: 100%;
+    margin: 4px;
+    height: 4vh;
+}
